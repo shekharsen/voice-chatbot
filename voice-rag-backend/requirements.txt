@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────
+#  Voice RAG Assistant — Python dependencies
+#  All packages are FREE and open-source.
+#  Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# API server
+fastapi
+uvicorn
+python-multipart   # file upload support
+
+# Data validation
+pydantic
+
+# Environment config
+python-dotenv
+
+# RAG framework
+langchain
+langchain-community
+langchain-core
+
+# Local LLM + embeddings (via Ollama)
+# No API key needed — Ollama runs on your machine
+ollama
+
+# Vector database (local, no cloud)
+chromadb
+
+# PDF text extraction
+pymupdf
